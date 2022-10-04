@@ -11,5 +11,5 @@ The full requirements are:
 - Bootstrap Container & Grid
 - External CSS
 - Media Query
-- Responsive
+- Responsive (all page)
 - Deploy
