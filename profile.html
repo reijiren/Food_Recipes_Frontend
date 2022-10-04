@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama Recipes</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="icon" href="img/—Pngtree—delicious food_568171 1.ico" type="image/x-icon">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- bootstrap 2 & jquery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <!-- style css -->
+    <style>
+        .navbar{
+            border:none;
+            min-height: 0;
+            margin-bottom: 0;
+            justify-content: flex-start;
+        }
+
+        .main-menu{
+            background-color: #fff;
+            font-size: 16px;
+        }
+
+        .navbar .main-menu ul li:hover{
+            background-color: #fff;
+        }
+
+        .container-fluid{
+            height: 100px;
+        }
+
+        .btn{
+            background-color: #E7E7E7 !important;
+            color:#000;
+            width: 300px;
+            height: 30px;
+        }
+
+        .btn:hover{
+            background-color: #AAA !important;
+            color: #000 !important;
+        }
+
+        .cpp{
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cp{
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- sticky navbar -->
+        <nav class="navbar">
+            <div class="main-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="add-recipe.html">Add Recipe</a>
+                    </li>
+                    <li>
+                        <a href="#" class="currentPage">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="profile-container">
+        <div class="profile-picture rounded-circle">
+            <button class="pencil-btn btn-primary" type="button" data-toggle="collapse" data-target="#edit-profile" aria-expanded="false" aria-controls="collapseExample"></button>
+        </div>
+        <div class="profile-name">
+            Garneta Sharina
+        </div>
+        <div class="collapse" id="edit-profile">
+            <a href="#" class="btn btn-primary cpp" type="text/html">Change Photo Profile</a>
+            <a href="reset-password.html" class="btn btn-primary cp" type="text/html">Change Password</a>
+        </div>
+    </div>
+    <div class="recipe-container">
+        <div class="recipe-panel-group" id="accordion">
+            <div class="head-panel">
+                <a data-toggle="collapse" data-parent="#accordion" href="#my-collapse">My Recipe</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#s-collapse">Saved Recipe</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#l-collapse">Liked Recipe</a>
+            </div>
+            <div class="content-panel collapse in" id="my-collapse">
+                <div class="profile-recipe-img m1 rounded-2">
+                    <p>Bomb Chicken</p>
+                </div>
+                <div class="profile-recipe-img m2 rounded-2">
+                    <p>Bananas Pancake</p>
+                </div>
+            </div>
+            <div class="content-panel collapse" id="s-collapse">
+                <div class="profile-recipe-img rounded-2 s1">
+                    <p>Coffee Lava Cake</p>
+                </div>
+                <div class="profile-recipe-img rounded-2 s2">
+                    <p>Chicken Kare</p>
+                </div>
+            </div>
+            <div class="content-panel collapse" id="l-collapse">
+                <div class="profile-recipe-img rounded-2 l1">
+                    <p>Pizza Lamoa</p>
+                </div>
+                <div class="profile-recipe-img rounded-2 l2">
+                    <p>Indian Salad</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="f-quote">
+            <h3>Eat, Cook, Repeat</h3>
+            <p>Share Your Best Recipe By Uploading Here !</p>
+        </div>
+        <div class="f-product">
+            <ul>
+                <li>Product</li>
+                <li>Company</li>
+                <li>Learn More</li>
+                <li>Get In Touch</li>
+            </ul>
+            <div class="arkademy">
+                &#xA9; Arkademy
+            </div>
+        </div>
+    </div>
+</body>
+</html>
