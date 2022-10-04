@@ -2,7 +2,7 @@
 
 This is my frontend Food Recipes Project from PijarCamp. This project is about slicing from Food Recipes figma to a real responsive website using HTML, CSS and Bootstraps.
 
-Tnis project has been deployed, the link is 
+Tnis project has been deployed, the link is https://mama-recipes-mrf.netlify.app/
 
 The full requirements are:
 
